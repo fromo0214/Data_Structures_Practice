@@ -4,7 +4,11 @@ import java.util.Stack;
  * method peeks at the item at the top of the stack, .empty() method checks if 
  * stack is empty, and the .search(Object o) searches for an item.
  */
-
+/*stack = LIFO data structure, Last-In First-Out 
+ * stores objects into a sort of "vertical tower"
+ * push() to add to the top
+ * pop() to remove from the top
+ */
 
 public class StacksTest{
 public static void main(String[] args) {
@@ -42,7 +46,7 @@ public static void main(String[] args) {
 2. moving back/forward through browser history
 3. backtracking algorithms (maze, file directories)
 4. calling functions (call stack)
- *  
- */
+*/ 
+
 
 
