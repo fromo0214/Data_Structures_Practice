@@ -1,3 +1,5 @@
+package Sorting_Algorithms;
+
 /* quick sort = moves smaller elements to the left of a pivot.
                 recursively divide array in 2 partitions
 

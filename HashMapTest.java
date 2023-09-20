@@ -28,7 +28,7 @@ public class HashMapTest {
         //clears the hashmap pairs
         // countries.clear();
         
-        //.size() displays the size of the Hashmap
+        // .size() displays the size of the Hashmap
         // System.out.println(countries.size());
         
         //this replaces the value of the keys

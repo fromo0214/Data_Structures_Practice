@@ -1,3 +1,4 @@
+package Sorting_Algorithms;
 /* bubble sort = pairs of adjacent elements are compared, and the elements swapped
                 if they are not in order
 

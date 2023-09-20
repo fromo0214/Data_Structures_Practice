@@ -1,3 +1,5 @@
+package Sorting_Algorithms;
+
 /*  Merge sort = recursively divide array in 2, sort, recombine
  * run-time complexity = O(n log n)
  * Spacve complexity = O(n)
