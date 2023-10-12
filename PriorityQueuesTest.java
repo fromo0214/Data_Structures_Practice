@@ -10,7 +10,7 @@ public class PriorityQueuesTest {
         // Queue<String> queue = new PriorityQueue<>(Collections.reverseOrder());
         Queue<Double> queue = new PriorityQueue<>();
 
-        //GPA's offerd in random orders 
+        //GPA's offered in random orders 
         queue.offer(2.0);
         queue.offer(4.0);
         queue.offer(3.0);
