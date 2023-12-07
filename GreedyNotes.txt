@@ -1,0 +1,18 @@
+Greedy algorithms are used for solving optimization problems, they are good for
+selecting the best option available at that moment, without considering
+the long-term consequences or global optimal solution.
+
+ key characteristics of a greedy algorithm:
+
+Greedy Choice Property: At each step of the algorithm, it makes the choice 
+that appears to be the best in the current context without considering the overall problem.
+
+Optimal Substructure: A problem exhibits optimal substructure if an optimal 
+solution to the entire problem can be constructed from optimal solutions to its subproblems. 
+Greedy algorithms work well when the problem has this property.
+
+Greedy Strategy: The strategy or rule that dictates the choice made at 
+each step varies from one problem to another. The greedy strategy is often problem-specific.
+
+No Backtracking: Once a choice is made, a greedy algorithm doesn't revisit
+it or consider other possibilities, which can lead to suboptimal solutions in some cases.

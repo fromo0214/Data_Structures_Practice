@@ -2,7 +2,7 @@ package Sorting_Algorithms;
 
 /*  Merge sort = recursively divide array in 2, sort, recombine
  * run-time complexity = O(n log n)
- * Spacve complexity = O(n)
+ * Space complexity = O(n)
  */
 public class MergeSortTest {
     public static void main(String[] args) {
@@ -42,9 +42,10 @@ public class MergeSortTest {
         merge(leftArray, rightArray, array);
     }
 
+    //O(n1+n2) time because we are merging 2 sorted arrays
     private static void merge(int[] leftArray, int[] rightArray, int[] array){
-        int leftSize = array.length /2;
-        int rightSize = array.length- leftSize;
+        int leftSize = array.length / 2;
+        int rightSize = array.length - leftSize;
         int i = 0, l = 0, r =0; //indices
 
         //check the conditions for merging

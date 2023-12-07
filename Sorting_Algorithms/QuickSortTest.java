@@ -1,5 +1,5 @@
 package Sorting_Algorithms;
-
+import java.util.Random;
 /* quick sort = moves smaller elements to the left of a pivot.
                 recursively divide array in 2 partitions
 
@@ -12,11 +12,21 @@ package Sorting_Algorithms;
  */
 public class QuickSortTest {
     public static void main(String[] args) {
-        int array[] = {8,2,4,7,1,3,9,6,5};
+        Random rand = new Random();
 
-        quickSort(array, 0, array.length -1);
 
-        for(int i : array){
+        int [] randomArray = new int[10];
+
+        for(int  i = 0; i < randomArray.length; i++){
+            randomArray[i] = rand.nextInt(20);
+            System.out.print(randomArray[i]+ " ");
+        }
+        System.out.println("");
+        // int array[] = {8,2,4,7,1,3,9,6,5};
+
+        quickSort(randomArray, 0, randomArray.length - 1);
+
+        for(int i : randomArray){
             System.out.print(i+ " ");
         }
     }
